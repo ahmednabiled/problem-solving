@@ -1,22 +1,11 @@
-7 14
-Hesham 90
-Salah 40
-Omar 70
-Mohanad 100
-Salma 60
-Reham 50
-Selim 29
-1 Selim 50
-1 Salma 20
-2 Selim
-1 Omar 30
-2 Salma
-1 Reham 50
-1 Hesham 10
-1 Mohanad 200
-2 Mohanad
-2 Hesham
-1 Salah 45
-2 Reham
-2 Omar
-2 Salah
+10
+insert 1
+insert 2
+insert 3
+insert 4
+insert 5
+find 5
+lower_bound 5
+upper_bound 4
+lower_bound 1
+find 6
