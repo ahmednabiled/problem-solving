@@ -17,7 +17,27 @@ void fastIO() {
 
 
 void solve() {
+    int n, q; cin >> n >> q;
+    map<string, int> mp;
+    for (int i = 0; i < n; i++)
+    {
+        string name; cin >> name;
+        int amount; cin >> amount;
+        mp.insert({name, amount});
+    }
 
+    while (q--)
+    {
+        int op; cin >> op;
+        string name; cin >> name;
+        if(op == 1){
+            int amount; cin >> amount;
+            mp[name] += amount;
+        }
+        else{
+            cout << mp[name] << "\n";
+        }
+    }
 }
 
 signed main() {
